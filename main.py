@@ -9,8 +9,8 @@ score = 0
 end_game = False
 
 while not end_game:
-    print(a['follower_count'])
-    print(b['follower_count'])
+#     print(a['follower_count'])
+#     print(b['follower_count'])
     print(f"\n{a['name']}, {a['description']} from {a['country']}.\n vs\n{b['name']}, {b['description']} from {b['country']}. ")
     y_n = input(f"\nDoes {a['name']} have more followers than {b['name']}?\nType 'y' if yes, 'n' if no: ").lower()
 
